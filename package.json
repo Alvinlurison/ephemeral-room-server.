@@ -1,0 +1,16 @@
+{
+  "name": "ephemeral-room-server",
+  "version": "1.0.0",
+  "description": "RAM-only WebSocket relay for the Ephemeral Room PIN chat. Never touches disk - rooms and messages live only in server memory and vanish the instant everyone leaves.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "ISC"
+}
